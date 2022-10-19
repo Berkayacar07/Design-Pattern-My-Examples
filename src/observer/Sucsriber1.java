@@ -10,6 +10,6 @@ public class Sucsriber1 implements Observer{
 
     @Override
     public void update() {
-        System.out.println("New video added !");
+        System.out.println("New video added: Sucsriber 1 !");
     }
 }

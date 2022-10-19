@@ -38,4 +38,5 @@ public class Channel implements Subject{
         videos.add(videoName);
         measurementsChanged();
     }
+    // You can add some methods like addVideo
 }
