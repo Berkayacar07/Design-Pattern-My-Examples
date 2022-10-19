@@ -31,12 +31,9 @@ public class Channel implements Subject{
             observer.update();
         }
     }
-    public void measurementsChanged() {
-        notifyObservers();
-    }
     public void addVideo(String videoName){
         videos.add(videoName);
-        measurementsChanged();
+        notifyObservers();
     }
     // You can add some methods like addVideo
 }
