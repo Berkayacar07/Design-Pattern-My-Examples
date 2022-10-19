@@ -1,9 +1,9 @@
 package observer;
 
-public class Sucsriber2 implements Observer {
+public class Subscriber2 implements Observer {
     private Subject channel;
 
-    public Sucsriber2(Channel channel) {
+    public Subscriber2(Channel channel) {
         this.channel=channel;
         channel.registerObserver(this);
     }
