@@ -11,7 +11,10 @@ public class Memory extends PropertyDecorator{
     public String getDescription() {
         return phone.getDescription() + "\nadded +64 gb hard disk";
     }
+
+    @Override
     public double cost() {
         return 1000.0 + phone.cost();
     }
+
 }

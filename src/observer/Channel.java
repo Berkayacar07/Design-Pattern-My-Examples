@@ -4,8 +4,8 @@ package observer;
 import java.util.ArrayList;
 
 public class Channel implements Subject{
-    private ArrayList<String> videos;
-    private ArrayList observers;
+    private final ArrayList<String> videos;
+    private final ArrayList<Observer> observers;
 
     public Channel() {
         observers = new ArrayList();
