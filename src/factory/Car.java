@@ -1,8 +1,8 @@
 package factory;
 
-import java.util.Locale;
 
-public class Car {
+
+public abstract class Car {
     protected String name;
     protected String colour;
 
